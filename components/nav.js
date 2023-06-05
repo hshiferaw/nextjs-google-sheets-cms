@@ -2,11 +2,11 @@ import Link from "next/link";
 
 const links = [
   {
-    href: "https://github.com/andreaskeller/nextjs-google-sheets-cms.git",
+    href: "https://github.com/hshiferaw/nextjs-google-sheets-cms.git",
     label: "GitHub",
   },
   {
-    href: "https://andreaskeller.name/blog/nextjs-google-sheets-cms",
+    href: "https://www.hshiferaw.me/blog",
     label: "Docs",
   },
 ];
@@ -16,7 +16,7 @@ export default function Nav() {
     <nav className="container mx-auto">
       <ul className="flex justify-between items-center p-8">
         <li>
-          <Link href="/">
+          <Link href="https://www.hshiferaw.me">
             <a className="text-blue-500 no-underline">Home</a>
           </Link>
         </li>
